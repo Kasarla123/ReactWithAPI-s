@@ -1,0 +1,101 @@
+.body {
+  background-color: black;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid {
+  margin: 50px auto;
+}
+
+.calculator-column {
+  border: 2px solid white;
+  padding: 30px;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.input-container {
+  margin-bottom: 18px;
+}
+
+label {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto; 
+  display: block;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 4px;
+}
+
+.bmi-value {
+  font-weight: bold;
+  color: green;
+}
+
+.bmi-message {
+  font-weight: bold;
+  color: green;
+}
+
+.property {
+  font-weight: bold;
+  color: black;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height:500px;
+  border-radius: 8px;
+}
+.text1{
+  font-weight: bold;
+  color:rgb(180, 180, 180)
+}
+.text2{
+  font-weight: 800;
+  color: rgb(106, 90, 205);
+}
+@media screen and (max-width:700px) {
+  img{
+    margin-top: 20px;
+  }
+}

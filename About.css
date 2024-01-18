@@ -1,0 +1,29 @@
+.carouselImages{
+    height:400px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt1{
+    color:#990099;
+    font-weight: bold;
+    font-size: 40px;
+}
+.txt2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size:22px
+}
+.profileimg{
+    width:280px;
+    height:350px;
+    border-radius: 50%;
+}
+.info{
+    margin-left: 150px;
+}
+@media (max-width:600px) {
+    .info{
+        margin-left: 0px;
+    }
+}
